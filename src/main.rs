@@ -50,7 +50,7 @@ fn main() {
     // 添加默认插件，并配置主窗口标题和大小
     app.add_plugins(DefaultPlugins.set(WindowPlugin {
         primary_window: Some(Window {
-            title: "Kataster".to_string(), // 窗口标题
+            title: "Supernova".to_string(), // 窗口标题
             resolution: WindowResolution::new(ARENA_WIDTH, ARENA_HEIGHT), // 窗口尺寸
             ..default()
         }),
